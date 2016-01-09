@@ -13,7 +13,7 @@
             
             font-family: Arial;
             text-align: center;
-             padding:10px;
+             padding:1px;
              width:100%;
              position:center;
              background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
@@ -123,10 +123,18 @@
         margin: 50px auto;
         background: white;    
         }
+        #id{
+        font-size:20px;    
+        }
+        
         .photobanner {
  height: 350px;
  width: 4764px;
  margin-bottom: 0px;
+}
+body {
+ <!-- src: http://subtlepatterns.com/?p=1045 -->
+ background: url('dark_geometric.png');
 }
      .first {
  -webkit-animation: bannermove 30s linear infinite;
@@ -184,5 +192,6 @@
    margin-left: -2125px;
  }
  
+p {
+    text-align: left;
 }
-        
