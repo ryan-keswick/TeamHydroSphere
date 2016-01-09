@@ -1,2 +1,0 @@
-# TeamHydroSphere
-Team HydroSphere collab
