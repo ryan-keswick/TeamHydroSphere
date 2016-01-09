@@ -6,6 +6,7 @@
     <title>Cleaning Our Oceans</title>
     <style>
         body {
+            text-decoration: none;
             font-family: Arial;
             padding: 20px 50px 150px;
             font-size: 13px;
@@ -20,7 +21,9 @@
         }
         
         ul {
-            text-align: right;  //Text in box
+            text-decoration: none;
+            font-family: Arial;
+            text-align: right; //Text in box
             display: inline;
             margin: 0;
             padding: 15px 4px 17px 0;
@@ -31,6 +34,7 @@
         }
         
         ul li {
+            text-decoration: none;
             font: bold 12px/18px Arial;
             display: inline-block;
             margin-right: -4px;
@@ -46,11 +50,14 @@
         }
         
         ul li:hover {
+            text-decoration: none;
+            font-family: Arial;
             background: #555;
             color: #ff8000;
         }
         
         ul li ul {
+            font-family: Arial;
             padding: 0;
             position: absolute;
             top: 48px;
@@ -70,6 +77,7 @@
         }
         
         ul li ul li {
+            font-family: Arial;
             background: #555;
             display: block;
             color: #fff;
@@ -77,13 +85,26 @@
         }
         
         ul li ul li:hover {
+            font-family: Arial;
             background: #666;
         }
         
         ul li:hover ul {
+            font-family: Arial;
             display: block;
             opacity: 1;
             visibility: visible;
+        }
+        
+        h2 {
+            // opening qoute
+            font-family: Arial;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000;
         }
     </style>
 </head>
@@ -92,34 +113,28 @@
     <h1>Pollution in Our Hydrosphere<h1>
        
     <ul>
-        <li>Home</li>
-        <li>
-            About
-            <ul>
-                <li>Cause</li>
-                <li>Effects</li>
-                
-                
+        <a href=home.html><li>Home</li></a>
+        <li>About
+                <ul>
+               <a href=cause.html> <li>Cause</li></a>
+               <a href=effects.html><li>Effects</li></a>
                 </ul>
         </li>
-        
-        <li>
-            Solutions
-            <ul>
-                <li>Sea Bin Project</li>
-                <li>Ocean Clean up Project</li>
-          
-            </ul>
+        <li>Solutions
+                <ul>
+               <a href=sea.html> <li>Sea Bin Project</li></a>
+               <a href=oisin.html> <li>Ocean Clean up Project</li></a>
+                </ul>
         </li>
-        <li>
-            Reporting Hotspots
+        <li>Reporting Hotspots
             <ul>
-                <li>Our Community</li>
-                <li>How You Can help</li>
-               
-        </li>
-        <li>Contact</li>
+              <a href=community><li>Our Community</li></a>
+              <a href=youhelp><li>How You Can help</li></a>
+            </li>
+       <a href=contact> <li>Contact</li></a>
         </ul>
+        </ul>
+        <h2>2 million tons of waste is emitted into the worlds waters everyday.</h2>
 </body>
 
 </html>
