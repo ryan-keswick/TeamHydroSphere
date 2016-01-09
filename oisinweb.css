@@ -1,23 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	 <style>
+
         body {
+            text-decoration: none;
             font-family: Arial;
             padding: 20px 50px 150px;
             font-size: 13px;
             text-align: right;
-            background: #077fff;
+            background-image: url(bp-photoskimmers_at_work.jpg);
+            background-size: 100% auto;
         }
-        
+        h2 {
+            
+            font-family: Arial;
+            text-align: center;
+             padding:10px;
+             width:100%;
+             position:center;
+             background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+             background: rgba(204, 204, 204, 0.5);
+        } 
+       
+       
+       
         h1 {
             font-family: Arial;
             font-size: 50px;
             text-align: center;
+            
         }
         
         ul {
-            text-align: right;  //Text in box
+            text-decoration: none;
+            font-family: Arial;
+            text-align: right; //Text in box
             display: inline;
             margin: 0;
             padding: 15px 4px 17px 0;
@@ -28,6 +42,7 @@
         }
         
         ul li {
+            text-decoration: none;
             font: bold 12px/18px Arial;
             display: inline-block;
             margin-right: -4px;
@@ -43,11 +58,14 @@
         }
         
         ul li:hover {
+            text-decoration: none;
+            font-family: Arial;
             background: #555;
             color: #ff8000;
         }
         
         ul li ul {
+            font-family: Arial;
             padding: 0;
             position: absolute;
             top: 48px;
@@ -67,26 +85,29 @@
         }
         
         ul li ul li {
+            font-family: Arial;
             background: #555;
             display: block;
+            z-index: 1;
             color: #fff;
             text-shadow: 0 -1px 0 #000;
         }
         
         ul li ul li:hover {
+            font-family: Arial;
             background: #666;
         }
         
         ul li:hover ul {
+            font-family: Arial;
             display: block;
             opacity: 1;
             visibility: visible;
         }
-    </style>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
-</html>
+        
+       
+        
+        a {
+            text-decoration: none;
+            color: #000;
+        }
