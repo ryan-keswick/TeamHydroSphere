@@ -27,6 +27,8 @@
             text-align: center;
              padding:1px;
              width:100%;
+             color:#ffffff;
+             font-size: 35px;
              position:center;
              background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
              background: rgba(204, 204, 204, 0.5);
@@ -150,11 +152,11 @@
  
 
      .first {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+ -webkit-animation: bannermove 10s linear infinite;
+    -moz-animation: bannermove 10s linear infinite;
+     -ms-animation: bannermove 10s linear infinite;
+      -o-animation: bannermove 10s linear infinite;
+         animation: bannermove 10s linear infinite;
 }
  
 @keyframes "bannermove" {
