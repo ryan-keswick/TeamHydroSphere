@@ -5,14 +5,18 @@
             padding: 20px 50px 150px;
             font-size: 13px;
             text-align: right;
-            background-image: url(bp-photoskimmers_at_work.jpg);
-            background-size: 100% auto;
-              color: white;
+            background-image: url(bpphotoskimmers_at_work.jpg);
+            background:url(bp-photoskimmers_at_work.jpg) no-repeat center fixed;
+            background-size:cover;
+              color: #000;
+              <!-- src: http://subtlepatterns.com/?p=1045 -->
+ background: url('dark_geometric.png');
         }
        #cause{
             text-align: left;
             text-font: Arial;
             font-size: 20px;
+            color: #ffffff;
             background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
              background: rgba(204, 204, 204, 0.5);
             
@@ -58,7 +62,7 @@
             margin-right: -4px;
             position: relative;
             padding: 15px 20px;
-            background: #fff;
+            background: #ffffff;
             cursor: pointer;
             -webkit-transition: all 0.2s;
             -moz-transition: all 0.2s;
@@ -136,14 +140,15 @@
         }
         
         .photobanner {
- height: 350px;
- width: 4764px;
- margin-bottom: 0px;
+         height: 350px;
+         width: 3550px;
+         margin: 50px auto;
+         overflow: hidden ;
+         margin-bottom: 0px;
 }
-body {
- <!-- src: http://subtlepatterns.com/?p=1045 -->
- background: url('dark_geometric.png');
-}
+
+ 
+
      .first {
  -webkit-animation: bannermove 30s linear infinite;
     -moz-animation: bannermove 30s linear infinite;
